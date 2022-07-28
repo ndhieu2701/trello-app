@@ -1,0 +1,50 @@
+.board {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 16px;
+    font-size: 1.6rem;
+    height: 100%;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.05); */
+}
+
+.board-name {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 16px;
+    padding: 0 16px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.board-container {
+    padding: 16px;
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #e5e5e5;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(2, 106, 167, 0.8);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+    border-radius: 4px;
+}

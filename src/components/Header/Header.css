@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 6px 16px;
+}
+
+.logo {
+    width: 87px;
+    height: 32px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    background-color: var(--hover-color)
+}
+.logo:hover .logo-img{
+    background-image: url(../../assets//imgs/logo-hover.gif);
+}
+
+.logo-img{
+    background-image: url(../../assets/imgs/logo.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 100%;
+}
+
+.header-right,
+.header-left {
+    display: flex;
+    align-items: center;
+}

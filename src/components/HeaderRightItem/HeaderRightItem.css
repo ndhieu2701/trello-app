@@ -1,0 +1,28 @@
+.header-right-item {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right-item i {
+    font-size: 2rem;
+    padding: 6px;
+    margin-left: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header-right-item i:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+.user {
+    background-image: url(../../assets/imgs/avatar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+    margin-left: 12px;
+    cursor: pointer;
+}
