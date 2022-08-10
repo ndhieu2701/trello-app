@@ -18,6 +18,7 @@ html {
     line-height: 1.4;
     box-sizing: border-box;
     user-select: none;
+    scroll-behavior: smooth;
 }
 
 
