@@ -266,7 +266,7 @@ const Board = (props) => {
           )
         }
          <div className="add-list-controller">
-            {!list&&<button className="btn board-btn" onClick={showAddList}>Add list</button>}
+            <button className="btn board-btn" onClick={showAddList}>Add list</button>
             {list&&<div className="add-list">
               <input type="text" autoFocus className="add-list-input" value={inputValue} onChange={handleInputValue}/>
               <i className='bx bx-check' onClick={addList} ></i>
