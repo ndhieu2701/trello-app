@@ -1,0 +1,38 @@
+.navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 6px 6px 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 32px;
+    /* transition: 0.2s ease all; */
+}
+
+.navbar-item:hover {
+    background-color: var(--hover-color)
+}
+
+.navbar-name {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.arrow-down-icon {
+    font-size: 1.8rem;
+    margin-left: 4px;
+    margin-right: 2px;
+    position: relative;
+    transform: translateY(1px);
+}
+
+.navbar-btn {
+    margin-left: 8px;
+}

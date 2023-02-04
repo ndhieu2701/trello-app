@@ -1,0 +1,92 @@
+.list {
+    min-width: 250px;
+    height: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 0 4px;
+    background-color: rgba(58, 180, 242, 0.3);
+}
+
+.list-header {
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.list-name {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.list-container {
+    position: relative;
+}
+
+.list-add-task {
+    text-align: center;
+}
+
+.add-list i,
+.list-add-task i {
+    padding: 4px;
+    font-size: 2rem;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 8px 4px 0;
+}
+
+.add-list i:last-child:hover,
+.list-add-task i:last-child:hover {
+    color: #fff;
+    background-color: red;
+}
+
+.add-list i:hover,
+.list-add-task i:hover {
+    color: #fff;
+    background-color: #7DCE13;
+}
+
+.add-task-name {
+    min-height: 32px;
+    font-size: 1.6rem;
+    padding-left: 8px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.add-task-btn {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.add-task-btn:hover {
+    background-color: #3ab4f2;
+}
+
+.more-btn {
+    position: relative;
+}
+
+.delete-list {
+    position: absolute;
+    background-color: #fff;
+    width: fit-content;
+    padding: 2px 4px;
+    border-radius: 4px;
+    top: 16px;
+    left: -72px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.delete-list:hover {
+    background-color: red;
+    color: #fff;
+}

@@ -1,0 +1,72 @@
+@import url('../List/List.css');
+
+.board {
+    width: 100%;
+    height: 100%;
+}
+
+.board-name {
+    width: 100%;
+    height: 44px;
+    font-size: 3rem;
+    padding: 0 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.board-container {
+    padding: 16px;
+    height: calc(100% - 30px);
+    display: flex;
+    overflow-x: scroll;
+}
+
+.board-btn {
+    width: 100%;
+}
+
+.board-btn:hover {
+    background-color: #3ab4f2;
+}
+
+.add-list-input {
+    min-height: 32px;
+    font-size: 1.6rem;
+    padding-left: 8px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #E2DCC8;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0096FF;
+}
+
+.add-list-controller {
+    min-width: 250px;
+    height: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 0 4px;
+    background-color: rgba(58, 180, 242, 0.3);
+}

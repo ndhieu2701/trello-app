@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #026aa7;
+    --text-color: #333;
+    --border-color: #e5e5e5;
+    --btn-color: #024b76;
+    --hover-color: rgba(255, 255, 255, 0.35);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.4;
+    box-sizing: border-box;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+
+.btn {
+    background-color: var(--btn-color);
+    height: 32px;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.btn:hover{
+    background-color: var(--hover-color);
+}

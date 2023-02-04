@@ -1,0 +1,40 @@
+.task {
+    min-height: 32px;
+    height: fit-content;
+    padding-left: 8px;
+    padding-right: 4px;
+    background-color:rgba(10, 161, 221, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.task-name {
+    width: 80%;
+    min-width: 160px;
+    overflow-wrap: break-word;
+}
+
+.task-controller {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.task-btn {
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+
+.task-btn:first-child {
+    margin-right: 2px;
+}
+
+.task-btn:last-child {
+    margin-left: 2px;
+}
+
+.task-btn:hover {
+    background-color: #fff;
+}
